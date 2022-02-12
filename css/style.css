@@ -87,7 +87,7 @@ button.main-menu {
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   border: 1px solid #ddd;
-  position: sticky;
+  position: sticky !important;
   background-color: transparent;
   outline: none;
   top: 20px;
@@ -127,7 +127,7 @@ body {
 nav {
   background-color: rgba(0, 0, 0, 0.9) !important;
   z-index: 1;
- position: sticky;
+ position: sticky !important;
   height: 100vh;
   overflow: hidden !important;
   width: 100%;
